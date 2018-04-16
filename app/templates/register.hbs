@@ -1,0 +1,30 @@
+<h4><center>REGISTER PAGE</center></h4>
+ <div class="jumbotron text-center">
+ <div class="row"style="margin-left:150px">
+   <div class="col-sm-4">
+<form ><lable>Firstname</lable>
+              {{input  type="firstname" style="width=20" valueBinding ='firstname' class="form-control" placeholder="firstname"  }}
+             <lable>Lastname</lable>
+              {{input  type="lastname" valueBinding ='lastname' class="form-control" placeholder="lastname"  }} 
+                           <lable>email</lable>
+              {{input  type="email" valueBinding ='email' class="form-control" placeholder="email"  }}
+                          <lable>password</lable>
+              {{input  type="password" valueBinding='password' class="form-control" placeholder="password"  }}
+                           <lable>Retype</lable>
+              {{input  type="retypepassword" valueBinding ='retypepassword' class="form-control" placeholder="retypepassword"  }}
+              
+<label>UserType :</label>
+<select name="type">
+<option value="cen">Central</option>
+<option value="stat">State</option>
+<option value="retail">Retail</option>
+</select>
+
+
+<button  type="button" id="myButton"class="btn btn-primary" {{action "register"}}>Signin</button>
+
+
+</form>
+</div>
+</div>
+</div>

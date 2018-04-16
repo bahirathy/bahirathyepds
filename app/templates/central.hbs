@@ -1,0 +1,62 @@
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CENTRAL LOGIN</title>
+
+  
+<div>
+<h2>CENTRAL GOVENMENT</h2>
+
+ <label>RECEIVED GOODS</label>
+ <label>Rice</label>
+ {{input  type="rice" style="width=20" valueBinding ='Rice' class="form-control" }}
+             <lable>Wheat</lable>
+              {{input  type="wheat" valueBinding ='Wheat' class="form-control"   }} 
+              <lable>kerocene</lable>
+              {{input  type="kerocene" valueBinding ='Kerocene' class="form-control"  }}
+
+  
+<form>
+  <div>
+   
+    {{input type="date"  valueBinding= 'date' id="party" name="party" min="2017-apr-01" max="2030-apr-20" }}
+    <span class="validity"></span>
+  </div>
+  
+</form>
+
+<label>ALLOCATE STATE</label>
+ 
+
+   <lable>Tamilnadu</lable><br><br>
+    {{!-- {{input  type="text" valueBinding ='tn' class="form-control"   }}  --}}
+
+    <label>ALLOCATE GOODS</label><br><br>
+    <lable>Rice</lable>
+    {{input  type="rice" valueBinding ='RICE' class="form-control"   }} 
+    <lable>Wheat</lable>
+    {{input  type="wheat" valueBinding ='WHEAT' class="form-control"   }} 
+    <lable>kerocene</lable>
+    {{input  type="kerocene" valueBinding ='KEROCENE' class="form-control"   }} 
+
+        
+
+  
+                          
+  
+
+
+  
+  {{!-- <lable>ALLOCATE</lable> --}}
+  {{!-- {{input type="text" valueBinding='allocate' class="form-control"}}<br><br> --}}
+   <button  type="button" id="myButton"class="btn btn-primary" {{action "add"}}>Add</button>
+  
+
+   <button  type="button" id="myButton"class="btn btn-primary" {{action "Submit"}}>Submit</button>
+  
+
+
+</div>
+
+
+
+

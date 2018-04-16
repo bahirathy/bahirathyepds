@@ -7,6 +7,19 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('epds');
+  this.route('national');
+  this.route('state');
+  this.route('page');
+  this.route('login');
+  this.route('central');
+  this.route('retail');
+  this.route('states');
+  this.route('madurai');
+  this.route('centraltrans');
+  this.route('ctrans');
+  this.route('transaction');
+  this.route('register');
 });
 
 export default Router;
